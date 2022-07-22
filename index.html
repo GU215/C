@@ -73,7 +73,7 @@
         <div class="creeper-setting-title">Controls</div>
         <ul>
             <li class="creeper-setting-small-title">
-                <input type="checkbox" id="creeper-rotate">
+                <input type="checkbox" id="creeper-rotate" checked>
                 <label for="creeper-rotate">
                     <p>Rotate</p>
                 </label>
@@ -117,12 +117,13 @@
                 </ul>
             </li>
             <li class="creeper-setting-small-title">
-                <input type="checkbox" id="creeper-pose">
+                <input type="checkbox" id="creeper-pose" checked>
                 <label for="creeper-pose">
                     <p>Pose</p>
                 </label>
                 <ul>
                     <li>
+                        Coming Soon...
                     </li>
                 </ul>
             </li>
@@ -241,10 +242,10 @@
             document.documentElement.style.setProperty('--rotate-x', cssX + "deg");
             document.documentElement.style.setProperty('--rotate-y', cssY + "deg");
 
-            document.querySelector("#slider1").value = cssX;
-            document.querySelector("#number1").value = cssX;
-            document.querySelector("#slider2").value = cssY;
-            document.querySelector("#number2").value = cssY;
+            document.querySelector("#slider1").value = Math.round(cssX);
+            document.querySelector("#number1").value = Math.round(cssX);
+            document.querySelector("#slider2").value = Math.round(cssY);
+            document.querySelector("#number2").value = Math.round(cssY);
         }
 
         function MouseUp() {
