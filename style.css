@@ -30,7 +30,7 @@ body {
 .creeper-outer {
     transform-style: preserve-3d;
     position: relative;
-    transform: rotateX(var(--rotate-x))rotateY(var(--rotate-y))rotateZ(var(--rotate-z))scale3d(var(--creeper-size),var(--creeper-size),var(--creeper-size));
+    transform: rotateX(var(--rotate-x))rotateY(var(--rotate-y))rotateZ(var(--rotate-z))scale3d(var(--creeper-size), var(--creeper-size), var(--creeper-size));
 }
 
 .creeper-outer div {
@@ -325,7 +325,9 @@ body {
     align-items: center;
 }
 
-.hm-mark::before, .hm-mark::after, .hm-mark {
+.hm-mark::before,
+.hm-mark::after,
+.hm-mark {
     width: 5px;
     height: 5px;
     content: " ";
@@ -374,7 +376,8 @@ body {
     transition: box-shadow .15s .30s
 }
 
-#hm-label+.hm .hm-mark::before, #hm-label+.hm .hm-mark::after {
+#hm-label+.hm .hm-mark::before,
+#hm-label+.hm .hm-mark::after {
     transition: top .15s .40s, box-shadow .30s, transform 0s .30s
 }
 
@@ -460,7 +463,8 @@ body {
     user-select: none;
 }
 
-.creeper-number::-webkit-inner-spin-button, .creeper-number::-webkit-outer-spin-button {
+.creeper-number::-webkit-inner-spin-button,
+.creeper-number::-webkit-outer-spin-button {
     -webkit-appearance: none;
     appearance: none;
 }
@@ -478,6 +482,7 @@ body {
         border-radius: 0;
         transition: border-radius .1s, height .4s .1s, width .4s .1s;
     }
+
     .creeper-setting-small-title ul {
         display: flex;
         flex-wrap: wrap;
@@ -492,11 +497,13 @@ body {
         border-radius: 0;
         transition: border-radius .1s, height .4s .1s, width .4s .1s;
     }
+
     .creeper-setting-small-title ul {
         display: flex;
         flex-wrap: wrap;
         margin-left: 10px;
     }
+
     .creeper-setting-small-title ul li {
         flex-wrap: wrap;
         max-width: 200px;
@@ -504,7 +511,9 @@ body {
         min-width: 0;
         position: relative;
     }
-    .creeper-setting-small-title ul li p, .creeper-setting-small-title ul li span {
+
+    .creeper-setting-small-title ul li p,
+    .creeper-setting-small-title ul li span {
         height: 30px;
     }
 }
@@ -513,6 +522,7 @@ body {
     0% {
         transform: translate3d(0, calc(100px*0.75), calc(100px*0.5))rotateX(-30deg);
     }
+
     100% {
         transform: translate3d(0, calc(100px*0.75), calc(100px*0.5))rotateX(30deg)
     }
@@ -522,6 +532,7 @@ body {
     0% {
         transform: translate3d(0, calc(100px*0.75), calc(100px*0.5))rotateX(-30deg);
     }
+
     100% {
         transform: translate3d(0, calc(100px*0.75), calc(100px*0.5))rotateX(30deg)
     }
@@ -531,6 +542,7 @@ body {
     0% {
         transform: translate3d(calc(100px*-0.5), calc(100px*0.75), calc(100px*0.5))rotateX(-30deg);
     }
+
     100% {
         transform: translate3d(calc(100px*-0.5), calc(100px*0.75), calc(100px*0.5))rotateX(30deg)
     }
@@ -540,6 +552,7 @@ body {
     0% {
         transform: translate3d(calc(100px*-0.5), calc(100px*0.75), calc(100px*0.5))rotateX(-30deg);
     }
+
     100% {
         transform: translate3d(calc(100px*-0.5), calc(100px*0.75), calc(100px*0.5))rotateX(30deg)
     }
@@ -549,6 +562,7 @@ body {
     0% {
         transform: translate3d(0, calc(100px*0.75), calc(100px*-0.5))rotateX(-30deg);
     }
+
     100% {
         transform: translate3d(0, calc(100px*0.75), calc(100px*-0.5))rotateX(30deg)
     }
@@ -558,6 +572,7 @@ body {
     0% {
         transform: translate3d(0, calc(100px*0.75), calc(100px*-0.5))rotateX(-30deg);
     }
+
     100% {
         transform: translate3d(0, calc(100px*0.75), calc(100px*-0.5))rotateX(30deg)
     }
@@ -567,6 +582,7 @@ body {
     0% {
         transform: translate3d(calc(100px*-0.5), calc(100px*0.75), calc(100px*-0.5))rotateX(-30deg);
     }
+
     100% {
         transform: translate3d(calc(100px*-0.5), calc(100px*0.75), calc(100px*-0.5))rotateX(30deg)
     }
@@ -576,6 +592,7 @@ body {
     0% {
         transform: translate3d(calc(100px*-0.5), calc(100px*0.75), calc(100px*-0.5))rotateX(-30deg);
     }
+
     100% {
         transform: translate3d(calc(100px*-0.5), calc(100px*0.75), calc(100px*-0.5))rotateX(30deg)
     }
