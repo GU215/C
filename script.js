@@ -91,6 +91,8 @@ const drag = document.querySelector(".outer");
 function MouseDown(event) {
 
     console.log( blue + "mousedown")
+	
+	event.preventDefault();
 
     function MouseMove(event) {
 
@@ -200,6 +202,8 @@ const touch = document.querySelector(".outer");
 function TouchStart(event) {
 
     console.log( blue + "touchstart")
+	
+	event.preventDefault();
 
     function TouchMove(event) {
 
